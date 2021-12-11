@@ -14,30 +14,32 @@
     </header>
 
     <nav>
-        <form method="post">
-          <select name="categories">
-					       <option value="">Categories </option>
+        <form method="post" id="menu">
+          <div id="opcio">
+            <select name="categories">
+					       <option value="" >Categories </option>
                  <option value="llits"> Llits </option>
                  <option value="cadires"> Cadires </option>
                  <option value="sofas"> Sofas </option>
                  <option value="emmagatzematge"> Emmagatzematge </option>
                  <option value="taules"> Taules </option>
-				</select>
-          <select name="materials">
+				    </select>
+            <select name="materials">
 					       <option value="">Material </option>
                  <option value="Acer"> Acer </option>
                  <option value="Fusta"> Fusta </option>
                  <option value="Plastic"> Plastic </option>
                  <option value="Poliéster"> Poliéster </option>
-				</select>
-          <select name="ordre">
+				    </select>
+            <select name="ordre">
 					       <option value="">Ordena per:</option>
                  <option value="P.nom asc"> Alfabeticament (A-Z) </option>
                  <option value="P.nom desc"> Alfabeticament (Z-A) </option>
                  <option value="P.codi asc"> Id asendent </option>
                  <option value="P.codi desc"> Id desendent </option>
-				</select>
-				<button name="buscar" type="submit">filtra</button>
+				    </select>
+          </div>
+				  <button name="buscar" type="submit">Filtra</button>
       </FROM>
     </nav>
 
