@@ -17,11 +17,11 @@
         <form method="post">
           <select name="categories">
 					       <option value="">Categories </option>
-                 <option value="llits"> llits </option>
-                 <option value="cadires"> cadires </option>
-                 <option value="sofas"> sofas </option>
-                 <option value="emmagatzematge"> emmagatzematge </option>
-                 <option value="taules"> taules </option>
+                 <option value="llits"> Llits </option>
+                 <option value="cadires"> Cadires </option>
+                 <option value="sofas"> Sofas </option>
+                 <option value="emmagatzematge"> Emmagatzematge </option>
+                 <option value="taules"> Taules </option>
 				</select>
           <select name="materials">
 					       <option value="">Material </option>
@@ -31,14 +31,13 @@
                  <option value="Poliéster"> Poliéster </option>
 				</select>
           <select name="ordre">
-					       <option value="">Ordena </option>
+					       <option value="">Ordena per:</option>
                  <option value="P.nom asc"> Alfabeticament (A-Z) </option>
                  <option value="P.nom desc"> Alfabeticament (Z-A) </option>
                  <option value="P.codi asc"> Id asendent </option>
                  <option value="P.codi desc"> Id desendent </option>
 				</select>
 				<button name="buscar" type="submit">filtra</button>
-				<button name="reset" type="submit">reset</button>
       </FROM>
     </nav>
 
