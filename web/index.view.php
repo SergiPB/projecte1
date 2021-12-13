@@ -13,10 +13,10 @@
       <h1 id="titol"></h1>
     </header>
 
-    <nav>
+    <nav >
         <form method="post" id="menu">
           <div id="opcio">
-            <select name="categories">
+            <select name="categories" id="categories">
 					       <option value="" >Categories </option>
                  <option value="llits"> Llits </option>
                  <option value="cadires"> Cadires </option>
@@ -24,14 +24,14 @@
                  <option value="emmagatzematge"> Emmagatzematge </option>
                  <option value="taules"> Taules </option>
 				    </select>
-            <select name="materials">
+            <select name="materials" id="material">
 					       <option value="">Material </option>
                  <option value="Acer"> Acer </option>
                  <option value="Fusta"> Fusta </option>
                  <option value="Plastic"> Plastic </option>
                  <option value="Poliéster"> Poliéster </option>
 				    </select>
-            <select name="ordre">
+            <select name="ordre" id=ordre>
 					       <option value="">Ordena per:</option>
                  <option value="P.nom asc"> Alfabeticament (A-Z) </option>
                  <option value="P.nom desc"> Alfabeticament (Z-A) </option>
@@ -44,6 +44,9 @@
     </nav>
 
       <main>
+        <div class="main">
+
+
 
         <table id="taula">
           <tr>
@@ -71,37 +74,14 @@
                <div id="esquerra">
                <h1>Producte destacat</h1>
                <img src="fts/destacat11-21.png" alt="Producte destacat Novembre">
-
-               </div>
-               <div id="dreta">
-                   <div id="adalt">
-                   <h1 class="titol"></h1>
-                       <div id="dalt">
-                       <div id=button>
-                       <p></p>
-                       <a href="#">Mes Informació</a>
-                       </div>
-                       <img src="" alt="">
-                   </div>
-                   </div>
-               <div id="abaix">
-                   <h1></h1>
-                   <div id="dbaix">
-                   <p></p>
-                   <img src="" alt="">
-                   <a href="#">Mes Informació</a>
-               </div>
                </div>
                </div>
 
-      <h2>Aqui estaran els nostres mobles que oferim en la nostra empresa.</h2>
-      <img src="fts/DISSENY WEB.png" alt="websito">
+
     </main>
     <footer>
-      <div id="contacte"></div>
-      <div class="footleft">
-       <a id="fotitle">Més Informació</a>
         <div class="location">
+          <a id="fotitle">Més Informació</a>
           <br />
           <b>Direcció |</b> AV.Tarrega,18 25300
           <br />
@@ -117,24 +97,26 @@
           <br />
           10.00h - 14.00h i 16.00 - 20.00, Dissabte i Diumenge 10.00h - 14.00h
           </div>
-        <br />
-        <br />
-        <br />
-          Sponsors:
-        <br />
-        <br />
-        <img class="sponsor" src="fts/descarga.png"/>
-        <div class="politica">
-          <a href="documents/privacitat" target="_blank"><u>Política de privacitat</u></a>
+
+        <div class="footer1">
+          <br />
+          <br />
+          <br />
+            Sponsors:
+          <br />
+          <br />
+          <img src="fts/descarga.png"/ alt="bricodepot">
+          <img src="fts/logotipo-grup-gamma.jpg" alt="gammamobles">
+
+        <a href="documents/privacitat" target="_blank"><u>Política de privacitat</u></a>
         </div>
         <div class="xarxes">
-          <a href="https://es-es.facebook.com/" target="_blank"><img src="fts/facebook.png" id="facebook" alt="facebook"/></a>
+          <a href="https://es-es.facebook.com/" target="_blank"><img src="fts/feisbus.png" id="facebook" alt="facebook"/></a>
           <a href="https://www.instagram.com//" target="_blank"><img src="fts/insta.png" id="insta" alt="instagram"/></a>
           <a href="https://twitter.com/" target="_blank"><img src="fts/twitter.png" id="twitter" alt="twitter"/></a>
         </div>
-      </div>
     </footer>
-  </div>
+
   <!-- <script src="js/funcions.js"></script> -->
 </body>
 

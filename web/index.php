@@ -14,7 +14,7 @@
       if (isset($_POST['buscar'])) {
         $categories = $_POST['categories'];
         $material = $_POST['materials'];
-        
+
         if(empty($_POST['categories']) and empty($_POST['materials'])){
 
           $where = "";
@@ -31,7 +31,7 @@
 
 		      $where="where C.nom ='".$categories."' and material='".$material."'";
 	      }
-        
+
         if(empty($_POST['ordre'])){
           $ordre = "P.codi";
 
